@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 import urllib.request as urllib2
 
-
+        
 app = Flask("mon_app")
 CORS(app)
 
