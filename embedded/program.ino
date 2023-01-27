@@ -105,7 +105,7 @@ function refreshPage(){
 refreshPage();
 
 </script>
-</html>;
+</html>)rawliteral";
 
 // Replaces placeholder with DHT values
 String processor(const String& var){
