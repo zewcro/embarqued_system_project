@@ -19,4 +19,4 @@ def client_mqtt(file):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    client_mqtt("../js  on_test.json")
+    client_mqtt("../data/json_test.json")

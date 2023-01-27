@@ -10,16 +10,17 @@ import urllib.request as urllib2
 app = Flask("mon_app")
 CORS(app)
 
+
 @app.route('/', methods=["GET"])
 def say_hello():
-    return render_template('index.html')
+    return render_template('../frontend/templates/index.html')
 
 
 @app.route('/captor_data', methods=["GET"])
 def captor_data():
     response = urllib2.urlopen("http://10.8.128.135/")
     data = response.read()
-    return "test"
+    return data
 
 
 def send_mqtt_captor_data():
